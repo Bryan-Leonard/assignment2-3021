@@ -2,6 +2,8 @@ import os
 import pymysql
 from urllib.request import urlopen
 
+# Test trigger
+
 db_config = {
     'host': 'mydatabase.com',
     'user': 'admin',
