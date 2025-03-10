@@ -8,6 +8,13 @@ db_config = {
     'password': 'secret123'
 }
 
+import subprocess
+
+
+def dangerous_function(user_input):
+    subprocess.run(f"echo {user_input}", shell=True)
+
+
 def get_user_input():
     user_input = input('Enter your name: ')
     return user_input
